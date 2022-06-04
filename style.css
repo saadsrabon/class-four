@@ -1,0 +1,26 @@
+p{
+ color: red;
+ font-size: 20px;
+display: none;
+
+}
+
+.main-menu li{
+   float: left;
+    padding: 0px 10px;
+    list-style: none;
+}
+
+.main-menu li:hover{
+    color: red;
+    background:green;
+    font-size: 20px;
+}
+
+
+.drop-down-menu{
+    display: none;
+}
+.drop-down:hover .drop-down-menu{
+    display: block;
+}
